@@ -1,0 +1,5 @@
+curl -X POST -d "grant_type=password&username=root@gmail.com&password=root&client_id=YxgweFJ6saOiIZpelUHBw4VHLvbPrnomnwF4FrVz&client_secret=pbkdf2_sha256$600000$pojPkM2dGZZXwe7UkOBNUe$S3+EndxQMy4f+orIdNSpB6IvlRjnh5mXwP9FuYORgNE=" http://your-domain/o/token/
+
+curl -X POST -d "grant_type=password&username=root@gmail.com&password=root&client_id=YxgweFJ6saOiIZpelUHBw4VHLvbPrnomnwF4FrVz&client_secret=pbkdf2_sha256$600000$pojPkM2dGZZXwe7UkOBNUe$S3+EndxQMy4f+orIdNSpB6IvlRjnh5mXwP9FuYORgNE=" http://localhost:8000/user/auth/token/
+
+# {"access_token": "0BVfgujhdglxC7OHFh0we7gprlfr1Xk", "scope": "read write", "token_type": "Bearer", "expires_in": 36000, "refresh_token": "AwffMPzNXvghlkjhs8dpXk7gbhhjhljlldfE2nI"}
